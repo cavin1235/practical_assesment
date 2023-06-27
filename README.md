@@ -25,10 +25,12 @@
 
 # Solution
 
-This task has been implemented using a widget called AutomaticKeepAliveClientMixin which is used to persist the state of a widget. 
+This task has been implemented using a widget called **AutomaticKeepAliveClientMixin** which is used to persist the state of a widget. 
 
 Along with this, I've implemented the following things:
 
-- Refactored the code into seperate files
-- Added some ammount of responsivenes to the design
-- Added files for spacing and colors implementation
+- Implemented an architecture and proper folder strcuture where I can segregate files
+- Added **utils** folder that contains App Colors and constants that contains the colors and the spacing values which can be used throughout the app.
+- Added **widgets** folder that contains all the resusable widgets.
+- Added some ammount of responsivenes to the design by using widgets such **Spacer** and by utilising **MediaQuery**
+- Added documentation in files where needed
